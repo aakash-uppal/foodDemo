@@ -14,7 +14,6 @@ typealias RvCompletionHandler = ((_ result: Any?,_ Error: Error?) -> Void)?
 
 //Base Url
 let serverBaseURL = "http://www.themealdb.com/api/json/v1/1"
-let googleAPIKey = "AIzaSyBGDxU-QAhIRIszPNtWMUGpqwz2U4_Qyls"
 
 struct Apis{
     static let searchMeals = "search.php?s="
